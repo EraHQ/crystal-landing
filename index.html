@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crystal — memory that curates itself</title>
+<meta name="description" content="Crystal is a memory bank your AI tools share. It verifies what it cites, notices what it could not answer, researches its own gaps, and holds new knowledge behind review until it earns trust.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav">
+    <a class="brand" href="/">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2 L20 8 L17 20 L7 20 L4 8 Z" stroke="#6f72f7" stroke-width="1.6"/><path d="M12 2 L12 20 M4 8 L20 8" stroke="#6f72f7" stroke-width="0.9" opacity="0.5"/></svg>
+      Crystal
+    </a>
+    <div class="nav-links">
+      <a href="#how">How it works</a>
+      <a href="https://github.com/EraHQ/CRYSTAL/blob/master/RESEARCH_AGENDA.md">Research</a>
+      <a href="#pricing">Pricing</a>
+      <a href="https://github.com/EraHQ/CRYSTAL">GitHub</a>
+      <a class="btn btn-primary" href="https://inspector.erahq.ai/admin/">Open the console</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="eyebrow">SELF-CURATING MEMORY FOR AI</div>
+    <h1>RAG gets worse over time.<br>Crystal gets better.</h1>
+    <p class="sub">Crystal is a memory bank your AI tools share. It verifies what it cites, notices what it could not answer, researches its own gaps, and holds new knowledge behind review until it earns trust.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="https://inspector.erahq.ai/admin/">Start free</a>
+      <a class="btn" href="https://github.com/EraHQ/CRYSTAL/blob/master/RESEARCH_AGENDA.md">Read the research agenda</a>
+    </div>
+    <div class="fine">500 crystals free. No card. Reads never stop, even at the cap.</div>
+
+    <div class="demo">
+      <div class="demo-label">CLAUDE · CONNECTED TO CRYSTAL</div>
+      <div class="bubble-user">What did we decide about pricing?</div>
+      <div class="bubble-ai">
+        You ratified three tiers: Free at 500 crystals, Starter at $29 for 25,000, and Scale at $49 per seat, uncapped. The reasoning is stored with it: upgrades happen when you need capacity, never because a clock ran out.
+        <div class="tier-row">
+          <span class="tier">verified</span>
+          <span class="tier-note">grounded in 2 sources · stored 3 weeks ago · recalled in every tool you connect</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="clients">
+    <div class="label">Works where you already work</div>
+    <div class="chips">
+      <span class="chip">Claude</span>
+      <span class="chip">Claude Code</span>
+      <span class="chip">Cursor</span>
+      <span class="chip">Windsurf</span>
+      <span class="chip">VS Code</span>
+      <span class="chip">Cline</span>
+      <span class="chip">Zed</span>
+      <span class="chip">ChatGPT</span>
+      <span class="chip">Gemini CLI</span>
+      <span class="chip chip-hl">Any MCP client</span>
+    </div>
+  </section>
+
+  <section class="section" id="how">
+    <div class="section-head">
+      <h2>Memory that compounds</h2>
+      <p>Most memory systems accumulate. Crystal curates.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 L19 7.5 L19 16.5 L12 21 L5 16.5 L5 7.5 Z" stroke="#6f72f7" stroke-width="1.6"/><path d="M12 3 L12 21" stroke="#6f72f7" stroke-width="0.9" opacity="0.5"/></svg>
+        <h3>Store with provenance</h3>
+        <p>Every fact remembers where it came from: your own words, an ingested document, or the model's reasoning. Those are different kinds of truth, and Crystal never confuses them.</p>
+      </div>
+      <div class="card">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.5" stroke="#6f72f7" stroke-width="1.6"/><path d="M8.5 12.5 L11 15 L15.5 9.5" stroke="#6f72f7" stroke-width="1.6"/></svg>
+        <h3>Curate for trust</h3>
+        <p>Contradictions get surfaced, unanswered questions become tracked gaps, autonomous research fills them behind your review, and knowledge earns its tier instead of asserting it.</p>
+      </div>
+      <div class="card">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12 C4 12 7 6.5 12 6.5 C17 6.5 20 12 20 12 C20 12 17 17.5 12 17.5 C7 17.5 4 12 4 12 Z" stroke="#6f72f7" stroke-width="1.6"/><circle cx="12" cy="12" r="2.6" stroke="#6f72f7" stroke-width="1.6"/></svg>
+        <h3>Recall everywhere</h3>
+        <p>Connect any MCP tool with a sign-in. Ask what you are working on in Claude at noon and Cursor at midnight; both answer from the same verified bank.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="open-band">
+      <div class="col-a">
+        <h2>Built in the open, weaknesses first</h2>
+        <p>The roadmap is public. The research agenda is a list of nine measurable ways this product might be failing, maintained by the people building it, and anyone can claim an experiment. Defects found live get fixed in the open and pinned with tests so they cannot return.</p>
+        <div class="hero-ctas" style="justify-content: flex-start">
+          <a class="btn" href="https://github.com/EraHQ/CRYSTAL/blob/master/RESEARCH_AGENDA.md">Research agenda</a>
+          <a class="btn" href="https://github.com/EraHQ/CRYSTAL/blob/master/ROADMAP.md">Public roadmap</a>
+        </div>
+      </div>
+      <div class="col-b">
+        <div class="q">Do gated facts ever leak into recall?</div>
+        <div class="q">Does the trust tier actually reach the model?</div>
+        <div class="q">Can one loud entity drown out the right answer?</div>
+        <div class="q-note">Three of nine open questions. Negative results are first-class.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="pricing">
+    <div class="section-head">
+      <h2>Grow into it</h2>
+      <p>Upgrade when you need capacity, never because a clock ran out. Reads never stop.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <div class="plan-name">Free</div>
+        <div class="price">$0</div>
+        <div class="plan-features">500 crystals<br>Daily AI allowance included<br>Every feature, nothing gated<br>Any MCP client</div>
+        <a class="btn" href="https://inspector.erahq.ai/admin/">Start free</a>
+      </div>
+      <div class="price-card hl">
+        <div class="plan-row">
+          <div class="plan-name">Starter</div>
+          <div class="badge">MOST POPULAR</div>
+        </div>
+        <div class="price">$29<span>/mo</span></div>
+        <div class="plan-features">25,000 crystals<br>10x the daily AI allowance<br>Document ingestion at depth<br>Email support</div>
+        <a class="btn btn-primary" href="https://inspector.erahq.ai/admin/">Upgrade</a>
+      </div>
+      <div class="price-card">
+        <div class="plan-name">Scale</div>
+        <div class="price">$49<span>/seat</span></div>
+        <div class="plan-features">Uncapped crystals<br>Team seats, shared bank<br>Minimum 2 seats<br>Priority support</div>
+        <a class="btn" href="mailto:hello@erahq.ai?subject=Crystal%20Scale">Talk to us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="cta-band">
+      <h2>Your tools forget you every morning. They don't have to.</h2>
+      <a class="btn btn-primary" href="https://inspector.erahq.ai/admin/">Start free with 500 crystals</a>
+      <div class="fine" style="color: #7b8299; font-size: 14px">Two minutes from signup to your first recall</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="brand" style="font-size: 15px; color: #7b8299">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2 L20 8 L17 20 L7 20 L4 8 Z" stroke="#7b8299" stroke-width="1.6"/></svg>
+      Crystal · an <a href="https://erahq.ai" style="color: #a6adc4">ERA HQ</a> product
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/EraHQ/CRYSTAL">GitHub</a>
+      <a href="https://github.com/EraHQ/CRYSTAL/blob/master/RESEARCH_AGENDA.md">Research</a>
+      <a href="https://github.com/EraHQ/CRYSTAL/blob/master/ROADMAP.md">Roadmap</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
